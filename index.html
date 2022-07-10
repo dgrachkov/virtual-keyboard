@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset-style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Клавиатура</title>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="area container">
+      <textarea id="textarea" placeholder="Нажмите на клавиатуру, чтобы ввести текст."></textarea>
+      <div class="btn-area">
+        <div class="btn-volume" title="Прослушать">
+          <img src="img/volume.svg" alt="" width="30px" height="30px">
+        </div>
+        <div class="btn-copy">
+          <img src="img/copy.svg" alt="" width="30px" height="30px" title="Копировать">
+          <span class="modal_copied">Скопировано</span>
+        </div>
+        <div class="btn-trash" title="Очистить">
+          <img src="img/trash.svg" alt="" width="30px" height="30px">
+        </div>
+      </div>
+    </div>
+    <div class="keyboard container">
+      <div class="keyboard-row">
+        <div class="keyboard-key" role="button" en-key="`" en-upperkey="~">ё</div>
+        <div class="keyboard-key" role="button" uppersymbol="!" lowersymbol="1">1</div>
+        <div class="keyboard-key" role="button" uppersymbol='"' lowersymbol="2">2</div>
+        <div class="keyboard-key" role="button" uppersymbol="№" lowersymbol="3">3</div>
+        <div class="keyboard-key" role="button" uppersymbol=";" lowersymbol="4">4</div>
+        <div class="keyboard-key" role="button" uppersymbol="%" lowersymbol="5">5</div>
+        <div class="keyboard-key" role="button" uppersymbol=":" lowersymbol="6">6</div>
+        <div class="keyboard-key" role="button" uppersymbol="?" lowersymbol="7">7</div>
+        <div class="keyboard-key" role="button" uppersymbol="*" lowersymbol="8">8</div>
+        <div class="keyboard-key" role="button" uppersymbol="(" lowersymbol="9">9</div>
+        <div class="keyboard-key" role="button" uppersymbol=")" lowersymbol="0">0</div>
+        <div class="keyboard-key" role="button" uppersymbol="_" lowersymbol="-">-</div>
+        <div class="keyboard-key" role="button" uppersymbol="+" lowersymbol="=">=</div>
+        <div class="keyboard-key backspace" role="button"  specialkey="Backspace">
+          <img src="img/backspace.svg" alt="" width="20" height="20">
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="keyboard-key tab" role="button" specialkey="Tab">
+          <img src="img/tab.svg" alt="" width="20" height="20">
+        </div>
+        <div class="keyboard-key" role="button" en-key="q" en-upperkey="Q">й</div>
+        <div class="keyboard-key" role="button" en-key="w" en-upperkey="W">ц</div>
+        <div class="keyboard-key" role="button" en-key="e" en-upperkey="E">у</div>
+        <div class="keyboard-key" role="button" en-key="r" en-upperkey="R">к</div>
+        <div class="keyboard-key" role="button" en-key="t" en-upperkey="T">е</div>
+        <div class="keyboard-key" role="button" en-key="y" en-upperkey="Y">н</div>
+        <div class="keyboard-key" role="button" en-key="u" en-upperkey="U">г</div>
+        <div class="keyboard-key" role="button" en-key="i" en-upperkey="I">ш</div>
+        <div class="keyboard-key" role="button" en-key="o" en-upperkey="O">щ</div>
+        <div class="keyboard-key" role="button" en-key="p" en-upperkey="P">з</div>
+        <div class="keyboard-key" role="button" en-key="[" en-upperkey="{">х</div>
+        <div class="keyboard-key" role="button" en-key="]" en-upperkey="}">ъ</div>
+        <div class="keyboard-key" role="button" uppersymbol="/" lowersymbol="\">\</div>
+      </div>
+      <div class="keyboard-row">
+        <div class="keyboard-key" role="button" en-key="a" en-upperkey="A">ф</div>
+        <div class="keyboard-key" role="button" en-key="s" en-upperkey="S">ы</div>
+        <div class="keyboard-key" role="button" en-key="d" en-upperkey="D">в</div>
+        <div class="keyboard-key" role="button" en-key="f" en-upperkey="F">а</div>
+        <div class="keyboard-key" role="button" en-key="g" en-upperkey="G">п</div>
+        <div class="keyboard-key" role="button" en-key="h" en-upperkey="H">р</div>
+        <div class="keyboard-key" role="button" en-key="j" en-upperkey="J">о</div>
+        <div class="keyboard-key" role="button" en-key="k" en-upperkey="K">л</div>
+        <div class="keyboard-key" role="button" en-key="l" en-upperkey="L">д</div>
+        <div class="keyboard-key" role="button" en-key=";" en-upperkey=":">ж</div>
+        <div class="keyboard-key" role="button" en-key="'" en-upperkey='"'>э</div>
+        <div class="keyboard-key enter" role="button" specialkey="Enter">
+          <img src="img/enter.svg" alt="" width="25" height="25">
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="keyboard-key shift" role="button" specialkey="Shift" checkshift="false">
+          <img src="img/shift.svg" alt="" width="20" height="20">
+        </div>
+        <div class="keyboard-key" role="button" en-key="z" en-upperkey="Z">я</div>
+        <div class="keyboard-key" role="button" en-key="x" en-upperkey="X">ч</div>
+        <div class="keyboard-key" role="button" en-key="c" en-upperkey="C">с</div>
+        <div class="keyboard-key" role="button" en-key="v" en-upperkey="V">м</div>
+        <div class="keyboard-key" role="button" en-key="b" en-upperkey="B">и</div>
+        <div class="keyboard-key" role="button" en-key="n" en-upperkey="N">т</div>
+        <div class="keyboard-key" role="button" en-key="m" en-upperkey="M">ь</div>
+        <div class="keyboard-key" role="button" en-key="," en-upperkey="<">б</div>
+        <div class="keyboard-key" role="button" en-key="." en-upperkey=">">ю</div>
+        <div class="keyboard-key" role="button" uppersymbol="," lowersymbol=".">.</div>
+        <div class="keyboard-key shift" role="button" specialkey="Shift" checkshift="false">
+          <img src="img/shift.svg" alt="" width="20" height="20">
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="keyboard-key lang" role="button" specialkey="swaplang" checklang="false">
+          <img src="img/lang.svg" alt="" width="20" height="20">
+        </div>
+        <div class="keyboard-key space" role="button" specialkey=" ">ru</div>
+        <div class="keyboard-key ctrl" role="button" specialkey="Control">ctrl</div>
+      </div>
+    </div>
+  </div>
+  
+<script src="js/script.js"></script>
+</body>
+</html>
